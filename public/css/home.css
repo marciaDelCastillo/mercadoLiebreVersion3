@@ -1,0 +1,187 @@
+.home{
+     width:100%;
+ }
+
+.home body{
+    width:100%;
+}
+
+.home header{
+    background-color:var(--color-amarillo);
+    padding-bottom:15px;
+    width:100%;
+    display:block;
+}
+.home header .logo{
+    display:inline-block;
+    width:50%;
+    padding:15px;
+    margin-bottom:30px;
+}
+
+.home header .buscador{
+    padding-left:20px;
+    display:inline-block;
+    width:100%;
+    height:50px;
+    margin-bottom:20px;
+}
+
+
+.home header form{
+    display:inline-block;
+    height:100%;
+    width:70vw;
+    padding:0;
+}
+.home header input{
+    display:inline-block;
+    height:50px;
+    width:70%;
+}
+.home header .buscar{
+    margin-left:20px;
+    border:Solid 2px var(--color-gris-oscuro);
+    background-color:var(--color-gris-claro);
+    display:inline-block;
+    height:50px;
+    width:50px;
+
+}
+.home header .buscar i{
+    font-size:30px;
+    padding:10px;
+    text-align:center;
+}
+.home header .cuotas{
+    text-align: center;
+    padding:15px 0;
+}
+
+
+.home header nav{
+    padding-bottom:20px;
+}
+.home header .site ul{
+    display:none;
+}
+.home header .login ul{
+    display:none;
+}
+
+.home header a{
+    list-style-type: none;
+    text-decoration:none;
+    color:black;
+    text-transform:capitalize;
+}
+
+.home header .burger-menu{
+    text-align:center;
+    display: block;
+    margin: 15px auto;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    width:50px;
+    height:50px;
+    background-color:var(--color-azul);
+}
+.home header .burger-menu i{
+    font-size:30px;
+    padding-top:10px;
+}
+
+.home main{
+    background-color:var(--color-gris-claro);
+    width:100%;
+    text-align:center;
+}
+.home main .banner img{
+    width:100%;
+    display:block; 
+}
+.home main article{
+    width:90%;
+    background-color:white;
+    margin-bottom:10px;
+    text-align:center;
+
+}
+.home main article .caja{
+    border-top:solid 1px var(--color-gris-claro);
+    padding:15px;
+    display:block;
+    text-align:center;
+}
+.home main article .caja .camion{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:white;
+    color:green;
+    border: solid 1px green;
+    border-radius:50%;
+    padding:27px;
+}
+.home main article .caja .camion i{
+    font-size:40px;
+    
+}
+
+.home main h2{
+    font-size:var(--tam-titulo);
+    text-align:center;
+    padding:30px;
+}
+.home main .precio{
+    font-size:var(--tam-precio);
+    color:black;
+}
+.home main .descuento{
+    font-size:var(--tam-descuento);
+    color:green;
+    text-transform:lowercase;
+}
+.home main h3{
+    font-size:var(--tam-descripcion);
+    display:none;
+    color:var(--color-gris-oscuro);
+}
+.home main .imagen-producto{
+    width:300px;
+    text-align:center;
+}
+.home footer{
+    text-align:center;
+    background-color:white;
+    margin-top:30px;
+    border-top:solid 2px var(--color-gris-oscuro);
+    padding-top:20px;
+}
+.home footer article{
+    padding: 20px 30px;
+}
+.home footer .iconos i{
+    font-size:2em;
+    color:var(--color-azul);
+    margin-bottom:10px;
+}
+
+@media(min-width:361px){
+    .home header .site ul{
+        display:block;
+    }
+    .home header .login ul{
+        display:block;
+    } 
+    .home header .burger-menu{
+        display:none;
+    }
+    .home main h3{
+        display:block;
+    }
+    .home main article .caja{
+        box-shadow:0px 0px 10px rgb(00,100,100);
+    }
+} 

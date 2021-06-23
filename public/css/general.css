@@ -1,0 +1,23 @@
+
+:root{
+    --color-amarillo:#eac926;
+    --color-azul:#03264C;
+    --color-celeste:#1259c3;
+    --color-gris-oscuro:#666;
+    --color-gris-claro: #ebebeb;
+    --color-verde:#39b54a;
+    --tam-texto:12px;
+    --tam-titulo:24px;
+    --tam-precio:18px;
+    --tam-descuento:16px;
+    --tam-descripcion:16px;
+    --tipografia:"Roboto";
+}
+
+*{
+    padding:0;
+    margin:0 auto;
+    box-sizing:border-box;
+    font-family:var(--tipografia);
+    font-size:var(--tam-texto);
+}
