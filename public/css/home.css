@@ -24,8 +24,11 @@
     margin-bottom:20px;
 }
 
-
 .home header form{
+    margin-left: 3vw;
+}
+
+/* .home header form{
     display:inline-block;
     height:100%;
     width:70vw;
@@ -49,7 +52,7 @@
     font-size:20px;
     padding:10px;
     text-align:center;
-}
+} */
 .home header .cuotas{
     text-align: center;
     padding:15px 0;
