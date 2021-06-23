@@ -2,10 +2,7 @@
      width:100%;
  }
 
-.home body{
-    width:100%;
-}
-
+/* HEADER */
 .home header{
     background-color:var(--color-amarillo);
     padding-bottom:15px;
@@ -23,7 +20,7 @@
     padding-left:20px;
     display:inline-block;
     width:100%;
-    height:50px;
+    height:40px;
     margin-bottom:20px;
 }
 
@@ -36,7 +33,7 @@
 }
 .home header input{
     display:inline-block;
-    height:50px;
+    height:40px;
     width:70%;
 }
 .home header .buscar{
@@ -44,12 +41,12 @@
     border:Solid 2px var(--color-gris-oscuro);
     background-color:var(--color-gris-claro);
     display:inline-block;
-    height:50px;
-    width:50px;
+    height:40px;
+    width:40px;
 
 }
 .home header .buscar i{
-    font-size:30px;
+    font-size:20px;
     padding:10px;
     text-align:center;
 }
@@ -91,7 +88,7 @@
     font-size:30px;
     padding-top:10px;
 }
-
+/* MAIN */
 .home main{
     background-color:var(--color-gris-claro);
     width:100%;
@@ -108,6 +105,10 @@
     text-align:center;
 
 }
+.home main article .imagen-producto{
+    display:inline-block;
+    width:90%;
+}
 .home main article .caja{
     border-top:solid 1px var(--color-gris-claro);
     padding:15px;
@@ -116,16 +117,16 @@
 }
 .home main article .caja .camion{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:50px;
+    height:50px;
     background-color:white;
     color:green;
     border: solid 1px green;
     border-radius:50%;
-    padding:27px;
+    padding:15px;
 }
 .home main article .caja .camion i{
-    font-size:40px;
+    font-size:20px;
     
 }
 
@@ -152,6 +153,7 @@
     width:300px;
     text-align:center;
 }
+/* FOOTER */
 .home footer{
     text-align:center;
     background-color:white;
@@ -169,6 +171,7 @@
 }
 
 @media(min-width:361px){
+    
     .home header .site ul{
         display:block;
     }
@@ -178,10 +181,11 @@
     .home header .burger-menu{
         display:none;
     }
+    
     .home main h3{
         display:block;
     }
     .home main article .caja{
         box-shadow:0px 0px 10px rgb(00,100,100);
     }
-} 
+}  
